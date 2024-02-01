@@ -1,0 +1,17 @@
+/* Example styling, adjust to your preferences */
+.navbar {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-info span {
+  margin-right: 1rem;
+}

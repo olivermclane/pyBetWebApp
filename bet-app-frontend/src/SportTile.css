@@ -1,0 +1,54 @@
+.sport-tiles-container {
+    display: grid;
+    flex-direction: row; /* Arrange tiles horizontally */
+    flex-wrap: wrap; /* Wrap tiles if needed */
+    justify-content: space-between; /* Optional horizontal alignment */
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.sport-tile {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 250px; /* Or use max-width if needed */
+    margin: 10px; /* Optional spacing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sport-tile img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.sport-tile h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.sport-tile button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.sport-tile .events {
+    display: none; /* Initially hidden */
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.sport-tile.show-events .events {
+    display: block; /* Display events when tile is clicked */
+}
+
