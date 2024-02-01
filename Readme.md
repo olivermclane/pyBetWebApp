@@ -84,3 +84,19 @@ Access the React frontend, typically at http://localhost:3000/ (or the port spec
 ## Additional Notes
 If you encounter any issues, double-check the installation steps and refer to the project's documentation or seek help from me.
  I hope this is helpful! Please let me know if you have any other questions.
+
+## Sources
+
+For my source for this assignment, it was quite hard to pin point all my sources for code, but the main sources where:
+
+https://github.com/
+
+https://www.digitalocean.com/community/tutorials/build-a-to-do-application-using-django-and-react
+
+https://www.django-rest-framework.org/
+
+https://docs.djangoproject.com/en/5.0/
+
+https://legacy.reactjs.org/docs/getting-started.html
+
+https://tailwindcss.com/
