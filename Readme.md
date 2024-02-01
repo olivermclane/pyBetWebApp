@@ -1,4 +1,4 @@
-# pyBetWebApp
+# pyBetWebApp by Oliver Mclane
 
 This project combines a React frontend with a Django backend to create a betting application.
 
